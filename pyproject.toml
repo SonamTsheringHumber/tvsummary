@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tvsummary"
+version = "0.1.0"
+description = "Downloads TV shows from the TVmaze API and writes a summary."
+requires-python = ">=3.11"
+dependencies = ["requests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
